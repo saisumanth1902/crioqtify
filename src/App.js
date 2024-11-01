@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
 import HeroSection from "./HeroSection/HeroSection"; // Assuming HeroSection component
-import Section from './Section';
+import Section from './Section/Section';
 
 function App() {
   return (

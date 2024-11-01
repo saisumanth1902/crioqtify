@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Button, Grid } from '@mui/material';
 import axios from 'axios';
-import AlbumCard from './Card';
+import AlbumCard from '../Card/Card';
 
 const Section = () => {
   const [albums, setAlbums] = useState([]);

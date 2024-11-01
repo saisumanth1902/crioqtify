@@ -1,0 +1,22 @@
+.heroSection {
+    background-color: var(--color-black);
+    color: var(--color-primary);
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .heroImage {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .heroText h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .heroText p {
+    font-size: 16px;
+    margin: 5px 0 0;
+  }
+  

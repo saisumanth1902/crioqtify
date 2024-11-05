@@ -1,8 +1,8 @@
-// // Card.jsx
+// src/Card/Card.jsx
 import React from 'react';
 import { Card, CardContent, CardMedia, Typography, Chip } from '@mui/material';
 
-const AlbumCard = ({ image, follows, title }) => {
+const AlbumCard = ({ image, likes, title }) => { // Change 'follows' to 'likes'
   return (
     <Card sx={{ width: 200, margin: 2 }}>
       <CardMedia
@@ -13,7 +13,7 @@ const AlbumCard = ({ image, follows, title }) => {
         sx={{ borderRadius: '8px 8px 0 0' }}
       />
       <CardContent sx={{ backgroundColor: '#000', color: '#fff', textAlign: 'center' }}>
-        <Chip label={`${follows} Follows`} sx={{ backgroundColor: '#333', color: '#fff', marginBottom: 1 }} />
+        <Chip label={`${likes} Likes`} sx={{ backgroundColor: '#333', color: '#fff', marginBottom: 1 }} /> {/* Change 'Follows' to 'Likes' */}
         <Typography variant="subtitle1" fontWeight="bold">{title}</Typography>
       </CardContent>
     </Card>
@@ -21,23 +21,3 @@ const AlbumCard = ({ image, follows, title }) => {
 };
 
 export default AlbumCard;
-
-
-// // src/Card/Card.jsx
-// import React from 'react';
-// import Chip from '@mui/material/Chip';
-
-// const Card = ({ album }) => {
-//   return (
-//     <div className="card">
-//       <img src={album.image} alt={album.title} className="album-image" />
-//       <div className="card-content">
-//         <Chip label={`${album.follows} Follows`} className="chip" />
-//         <h3>{album.title}</h3>
-//         <p>{album.description}</p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Card;

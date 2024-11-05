@@ -21,4 +21,24 @@
   }
 
 
+  /* styles.css */
+.MuiTabs-root {
+  background-color: #282c34; /* Change according to your design */
+}
+
+.MuiTab-root {
+  color: #fff; /* Change according to your design */
+}
+
+.Mui-selected {
+  background-color: #3a3f47; /* Change according to your design */
+}
+
+.card {
+  margin: 16px;
+  background: #000; /* Change according to your design */
+}
+
+
+
  

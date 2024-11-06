@@ -1,0 +1,21 @@
+.songs-section {
+    background-color: #000; /* Matches the dark background */
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .genre-tabs {
+    margin-bottom: 20px;
+  }
+  
+  .genre-tabs .MuiTab-root {
+    color: #fff; /* White text color */
+    font-weight: bold;
+  }
+  
+  .genre-tabs .Mui-selected {
+    color: #32CD32; /* Green color for active tab */
+  }
+  
+  /* Additional styling as needed to match Figma */
+  

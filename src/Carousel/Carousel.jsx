@@ -19,3 +19,20 @@
 // };
 
 // export default Carousel;
+
+// Carousel.js
+import AlbumCard from '../Card/Card';
+const Carousel = ({ items, showAllButton, displayLikes }) => {
+    // Render items in a carousel format
+    return (
+      <div className="carousel">
+        {items.map((item) => (
+          <AlbumCard key={item.id} data={item} displayLikes={displayLikes} />
+        ))}
+        {/* Left and right navigation buttons if needed */}
+      </div>
+    );
+  };
+  
+  export default Carousel;
+  
